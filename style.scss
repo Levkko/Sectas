@@ -1,0 +1,31 @@
+$font-color: rgba(black, 0.5);
+
+* {
+  font-family: Arial;
+  color: $font-color;
+}
+
+
+
+
+.app-container {
+    background: url(fon.jpg);
+
+  .dfrontent {
+    border: 10px solid black;
+
+    color: $font-color;
+
+    .button {
+      color: white;
+    }
+  }
+}
+
+// .app-container .dfrontent {
+//   border: 10px solid black;
+// }
+
+// .app-container .dfrontent .button {
+//   color: white;
+// }

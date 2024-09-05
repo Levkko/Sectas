@@ -1,0 +1,131 @@
+* {
+  font-family: Arial;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.dfrontent {
+  border: 10px solid black none;
+  padding: 85px 120px;
+  font-size: 40px;
+  background: url(table.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+p.Sectas {
+  font-size: 40px;
+  text-shadow: 3px 3px 5px rgba(184, 120, 0, 0.384);
+  text-align: center;
+  flex-grow: 1;
+}
+
+.app-container {
+  background: url(wood.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+li {
+  font-size: 25px;
+  margin-right: auto; 
+}
+
+.dfrontent a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:visited {
+  color: rgba(27, 27, 27, 0.8);
+}
+
+a:active {
+  color: rgba(163, 165, 21, 0.9);
+}
+
+.btn-info.btn.btn-primary {
+  background-color: #7e635a !important;
+  border: #ff6347 !important;
+  color: #fff !important;
+  margin-left: auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-container .btn-info {
+  margin-left: auto;
+}
+
+.modal-body {
+  font-size: 18px;
+  color: black;
+  font-family: Tahoma !important;
+}
+
+.hell {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.5);
+}
+
+.heven {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0, 225, 255, 0.5);
+}
+
+.btn-info.btn.btn-primary {
+  transform: scale(0.8); 
+}
+
+@media (max-width: 768px) {
+  .dfrontent {
+    font-size: 25px;
+    border: 10px solid black none;
+    padding: 85px 120px;
+    background: url(table.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  p.Sectas {
+    font-size: 40px;
+    text-align: center;
+    white-space: nowrap; /* Забезпечує текст в один рядок */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .button-container a {
+    margin-right: auto;
+  }
+
+  .button-container .btn-info {
+    margin-left: auto;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style-position: inside; /* Список починається від лівого краю */
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
