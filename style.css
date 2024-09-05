@@ -105,6 +105,7 @@ a:active {
     background: url(table.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    margin-top: -20px;
   }
 
   p.Sectas {
