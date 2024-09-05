@@ -10,6 +10,7 @@
   background: url(table.jpg) no-repeat center center;
   background-size: cover;
   overflow: hidden;
+  height: 100%;
 
 }
 
@@ -24,6 +25,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 
@@ -32,6 +34,7 @@ html, body {
   background: url(wood.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+  min-height: 100vh;
 }
 
 li {
@@ -94,6 +97,8 @@ a:active {
 .btn-info.btn.btn-primary {
   transform: scale(0.8); 
 }
+
+
 
 @media (max-width: 768px) {
   .dfrontent {
