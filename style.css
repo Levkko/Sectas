@@ -20,9 +20,18 @@ p.Sectas {
   flex-grow: 1;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .app-container {
   background: url(wood.jpg) no-repeat center center fixed;
   background-size: cover;
+  height: 100vh;
 }
 
 li {
